@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <nav style="margin-left:80px;">
+        <a href="/index.html" aria-current="page">Registration</a>
+        <a href="/login.html" aria-current="page">login</a>
+        <a href="/main.html" aria-current="page">main</a>
+        <a href="/main2.html" aria-current="page">main2</a>
+    </nav>
+    <style>
+        div>p {
+            background-color: aqua;
+        }
+
+        div section {
+            background-color: burlywood
+        }
+
+        div+p {
+            background-color: brown;
+        }
+
+        table~thead {
+            background-color: antiquewhite;
+        }
+
+        section~p {
+            background-color: aquamarine;
+        }
+
+        h4 p {
+            background-color: blueviolet;
+        }
+
+        h3 {
+            background-color: aquamarine;
+        }
+
+        table tbody {
+            background-color: khaki;
+        }
+
+        #mySidenav a {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        #mySidenav a:hover {
+            left: 0;
+        }
+
+        #about {
+            top: 20px;
+            background-color: #4CAF50;
+        }
+
+        #blog {
+            top: 80px;
+            background-color: #2196F3;
+        }
+
+        #projects {
+            top: 140px;
+            background-color: #f44336;
+        }
+
+        #contact {
+            top: 200px;
+            background-color: #555
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="about">About</a>
+        <a href="#" id="blog">Blog</a>
+        <a href="#" id="projects">Projects</a>
+        <a href="#" id="contact">Contact</a>
+    </div>
+
+    <div style="margin-left:80px;">
+        
+        <article>
+            <h1>Film cast: Wakanda Forever</h1>
+
+            <h2>Starring</h2>
+            <div>
+                <p>Letitia Wright</p>
+                <p>Lupita Nyong'o</p>
+                <section>
+                    <p>Martin Freeman</p>
+                </section>
+            </div>
+            <p>Danai Gurira</p>
+            <h4>
+                <p>Winston Duke</p>
+            </h4>
+            <p style="background-color: red;">Dominic Thorn</p>
+        </article>
+        <h1>famous roles of the main actors( Wakanda Forever movie)</h1>
+        <h2>Actors</h2>
+        <table>
+            <thead>
+                <tr>
+                    Name
+                </tr>
+                <tr>
+                    Surname
+                </tr>
+            </thead>
+
+            <tbody>
+                <td>Letitia</td>
+                <td>Wright</td>
+            </tbody>
+        </table>
+        <h3>popular films</h3>
+        <ul style="background-color:antiquewhite">
+            <li>Black Panther</li>
+            <li>Urban Hymn</li>
+            <li>Avengers: Infinity War</li>
+            <li>Death on the Nile</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    Name
+                </tr>
+                <tr>
+                    Surname
+                </tr>
+            </thead>
+
+            <tbody>
+                <td>Lupita</td>
+                <td>Nyong'o</td>
+            </tbody>
+        </table>
+        <h3>popular films</h3>
+        <ol style="background-color:blanchedalmond ;">
+            <li>12 Years a Slave</li>
+            <li>Star Wars: The Force Awakens</li>
+            <li>Queen of Katwe</li>
+            <li>East River</li>
+        </ol>
+        <table>
+            <thead>
+                <tr>
+                    Name
+                </tr>
+                <tr>
+                    Surname
+                </tr>
+            </thead>
+
+            <tbody>
+                <td>Martin</td>
+                <td>Freeman</td>
+            </tbody>
+        </table>
+        <h3>popular films</h3>
+        <ol style="background-color:blanchedalmond ;">
+            <ol style="background-color:;" type="A">
+                <li>The Hobbit</li>
+                <li>Breaking and Entering</li>
+                <li>Sherlock</li>
+                <li>Love Actually</li>
+                <dl>
+                    <dt>In times of trouble, the wise build bridges and the foolish build walls.</dt>
+                    <dd style="color:brown;">-King T'Challa </dd>
+                </dl>
+
+    </div>
+</body>
+
+</html>
